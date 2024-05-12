@@ -212,7 +212,7 @@ const Navbar = () => {
             {dropdown && (
               <ul
                 className={styles.dropdownMenu}
-                onMouseLeave={() => setDropdown(true)}
+                onMouseLeave={() => setDropdown(false)}
               >
                 <li>
                   <Link href='/courses/btech'>
