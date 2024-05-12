@@ -1,6 +1,7 @@
 import Header from "components/common/Header/Header";
 import styles from "@styles/Btech.module.css";
 import Footer from "components/common/Footer";
+import links from "../config";
 
 export default function BTech() {
   const image = "/images/btech/top_bg.jpg";
@@ -22,7 +23,7 @@ export default function BTech() {
         <div id={styles.branches}>
           
           <a
-            href="https://drive.google.com/file/d/1SRfFI6MPyaJJXDp4LK7AgqgNGSSLP3L3/view?usp=sharing"
+            href={links.biology}
             target="_blank"
             rel="noreferrer"
           >
@@ -31,7 +32,7 @@ export default function BTech() {
             </div>
           </a>
           <a
-            href="https://drive.google.com/file/d/1E8LgRucBaV1qHVovVjJc3c0JH7IRHmye/view?usp=sharing"
+            href={links.computerScience}
             target="_blank"
             rel="noreferrer"
           >
@@ -40,7 +41,7 @@ export default function BTech() {
             </div>
           </a>
           <a
-            href="https://drive.google.com/file/d/1MSu8-ViOvVEzfOoEY75a3mJkXoudRmxB/view?usp=sharing"
+            href={links.chemistry}
             target="_blank"
             rel="noreferrer"
           >
@@ -50,7 +51,7 @@ export default function BTech() {
             </div>
           </a>
           <a
-            href="https://drive.google.com/file/d/1gSnoQhkfyrFBJQMhXZjByJrN392XXhJq/view?usp=sharing"
+            href={links.math}
             target="_blank"
             rel="noreferrer"
           >
@@ -60,7 +61,7 @@ export default function BTech() {
             </div>
           </a>
           <a
-            href="https://drive.google.com/file/d/1odvzfXP4HAUBeY5z89N8z66UtNGxTpsb/view?usp=sharing"
+            href={links.physics}
             target="_blank"
             rel="noreferrer"
           >
@@ -70,7 +71,7 @@ export default function BTech() {
             </div>
           </a>
           <a
-            href="https://drive.google.com/file/d/18F5QwqkYzoLZm_BOQ74_0FRK-8J2C5AY/view?usp=sharing"
+            href={links.nursing}
             target="_blank"
             rel="noreferrer"
           >
@@ -79,7 +80,7 @@ export default function BTech() {
             </div>
           </a>
           <a
-            href="https://drive.google.com/file/d/1iuxcQrntJZw5q3zoQUiVSZ_bfAbyG0Y_/view?usp=sharing"
+            href={links.agriculture}
             target="_blank"
             rel="noreferrer"
           >
